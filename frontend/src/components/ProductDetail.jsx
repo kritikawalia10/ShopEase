@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import BarcodeScanner from "../components/BarcodeScanner"
-import { products } from "../data"; 
-
+import { products } from "../../data"; 
 const ProductPage = () => {
   const [scannedProduct, setScannedProduct] = useState(null);
 
